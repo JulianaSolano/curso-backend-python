@@ -1,0 +1,9 @@
+#custo de viagem de Belém para Salinas 
+distancia = float(input("Por favor, insira a distância em km: "))
+consumo = float(input("Por favor, insira o consumo médio do veículo em km/l: "))
+preco = float(input("Por favor, insira o preço do combustível por litro: "))
+
+custo = (distancia / consumo) * preco
+
+print(f"O custo total da viagem é: R$ {custo:.2f}")
+
